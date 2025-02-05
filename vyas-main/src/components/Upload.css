@@ -1,0 +1,27 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #dddddd;
+  }
+  .sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: rgb(0, 223, 154);
+    border-radius: 0.375rem;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px auto; /* Added margin for spacing */
+  }
+  

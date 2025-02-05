@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+    border-radius: 5%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: rgb(0, 223, 154);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background-color: rgb(0, 223, 154);
+    border-radius: 9px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: .375rem;
+}
+
+.input img {
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.terms {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.terms a {
+    color: rgb(0, 223, 154);
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+    align-items: center;
+    justify-content: flex-start; /* Aligns the buttons to the left */
+    padding-left: 20px; /* Adjust as needed for the left margin */
+    width: 90%; /* Ensures equal spacing on left and right */
+}
+
+button.sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #ffffff;
+    background: rgb(0, 223, 154) !important;
+    border-radius: .375rem;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none; /* Ensures the Login button, which is an anchor, looks like a button */
+}
+
+button.sub:hover {
+    background-color: rgb(0, 200, 140) !important; /* Darken on hover */
+}
+
+a.login-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #ffffff;
+    background: #d0cdcd !important;
+    border-radius: .375rem;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none; /* Ensures the Login button, which is an anchor, looks like a button */
+}
+
+a.login-btn:hover {
+    background-color: rgb(0, 200, 140) !important; /* Darken on hover */
+}
