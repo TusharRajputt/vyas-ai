@@ -9,7 +9,7 @@ const firebaseConfig = {
   storageBucket: "vyas-auth.appspot.com",
   messagingSenderId: "815458381003",
   appId: "1:815458381003:web:fb1efccaf7f4eee3743f4e",
-  databaseURL: "https://vyas-auth-default-rtdb.firebaseio.com/"
+  databaseURL: "https://vyas-ai-8e2d4-default-rtdb.firebaseio.com/"
 };
 
 const app = initializeApp(firebaseConfig);
