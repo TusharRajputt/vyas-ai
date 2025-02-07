@@ -6,14 +6,14 @@ import router from './route1.js';
 const app = express();
 
 app.use(cors({
-  origin: 'https://vyasai.in/', 
+  origin: 'https://vyas-ai.vercel.app/', 
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type']
 }));
 
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://vansh:vanshseth%402004@auth.pyxmqul.mongodb.net/myDatabaseName?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://21bcs095:<db_password>@cluster0.j8vog.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
